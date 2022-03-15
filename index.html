@@ -19,15 +19,14 @@
     <!-- text changer script -->
     <script>
         $(function() {
-            var messages = [],
-                index = 0;
+            var messages = [];
+            var index = 0;
 
             messages.push('IT Systemist 📡');
             messages.push('beginner Web & Blockchain Developer 💻');
             messages.push('amateur photographer 📷');
             messages.push('attracted by new technologies 💡');
             messages.push('wishful to improve 📈');
-            messages.push('always looking for new goals to achieve ✅');
 
             function cycle() {
                 $('#change-text').html(messages[index]);
@@ -36,11 +35,8 @@
                 if (index === messages.length) {
                     index = 0;
                 }
-
-                setTimeout(cycle, 2000);
             }
-
-            cycle();
+            setInterval(cycle, 2000);
         });
     </script>
     <script src="script.js"></script>
@@ -59,7 +55,7 @@
     <div class="content">
         <img class="logo" src="./img/logo.png">
         <header>
-            <p>RICCARDO MURABITO</p>
+            <div>RICCARDO MURABITO</div>
         </header>
         <!-- ********** PHOTO AND SMALL DESCRIPTION *********************************************************************-->
         <div class="section first-section">
