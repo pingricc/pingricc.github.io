@@ -250,11 +250,7 @@
             text-decoration: none;
             font-weight: 400;
             color: rgb(94, 103, 110);
-            filter: drop-shadow(0 0 3px rgba(126, 126, 126, 0.5));
-        }
-
-        .contact>p>a:hover {
-            filter: drop-shadow(0 0 1px rgba(126, 126, 126, 0.5));
+            text-shadow: 0 0 0.5px rgb(126, 126, 126)
         }
 
         /* END FORM ____________________________________________________*/
